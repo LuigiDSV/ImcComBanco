@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -1px 1px rgba(231, 231, 231, 0.513);
+}
+p {
+    padding: 5%;
+    font-size: 30px;
+    color: #FFF;
+    text-align: justify;
+    width: 80%;
+
+}
+
+table {
+    padding: 5%;
+    margin-left: 30%;
+    background-color: #FFF;
+}
+
+#fundo {
+    background-image: url(imagem/fundo2.jpg);
+    background-repeat: repeat;
+}
+
+#topo {
+
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+.page {
+    /* display: inline;
+    text-align: center; */
+    background-color: black;
+}
