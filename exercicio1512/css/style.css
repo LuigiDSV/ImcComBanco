@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -1px 1px rgba(231, 231, 231, 0.513);
+}
+
+p {
+    padding: 5%;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    text-align: center;
+
+}
+
+.center { 
+    margin: auto;
+}
+
+.linha {
+
+}
+.page {
+    text-align: center;
+    background-color: black;
+    margin: auto;
+}
