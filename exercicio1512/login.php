@@ -7,6 +7,6 @@ function validaLogin()
     $senhaEntra = $_POST['senhaEntra'];
     $query = "select * from usuario where login = '$loginEntra' and senha = '$senhaEntra'";
     $sqlLgn = mysqli_query($banco, $query);
-
+    $sqlLgn;
 }
 validaLogin();
