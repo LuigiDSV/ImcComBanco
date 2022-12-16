@@ -1,0 +1,16 @@
+create database dados_imc;
+use dados_imc;
+create table usuario (
+	id int primary key not null auto_increment,
+	nome varchar (200) not null,
+    login varchar (100) not null,
+	senha varchar (50) not null
+);
+
+create table imc (
+	id int primary key not null auto_increment,
+    peso double not null,
+    altura double not null,
+    genero varchar (100) not null,
+    imc double (5,2) null 
+);
